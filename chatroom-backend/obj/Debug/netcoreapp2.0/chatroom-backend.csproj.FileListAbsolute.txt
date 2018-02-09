@@ -1,0 +1,10 @@
+/Users/mbp/Documents/MyProject/chatroom-backend/bin/Debug/netcoreapp2.0/chatroom-backend.deps.json
+/Users/mbp/Documents/MyProject/chatroom-backend/bin/Debug/netcoreapp2.0/chatroom-backend.runtimeconfig.json
+/Users/mbp/Documents/MyProject/chatroom-backend/bin/Debug/netcoreapp2.0/chatroom-backend.runtimeconfig.dev.json
+/Users/mbp/Documents/MyProject/chatroom-backend/bin/Debug/netcoreapp2.0/chatroom-backend.dll
+/Users/mbp/Documents/MyProject/chatroom-backend/bin/Debug/netcoreapp2.0/chatroom-backend.pdb
+/Users/mbp/Documents/MyProject/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.csproj.CoreCompileInputs.cache
+/Users/mbp/Documents/MyProject/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.AssemblyInfoInputs.cache
+/Users/mbp/Documents/MyProject/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.AssemblyInfo.cs
+/Users/mbp/Documents/MyProject/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.dll
+/Users/mbp/Documents/MyProject/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.pdb

@@ -2,18 +2,27 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using chatroom_backend.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 
 namespace chatroom_backend.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private readonly IHubContext<ChatServer> _hubContext;
+        public ValuesController(IHubContext<ChatServer> hubContext)
+        {
+            _hubContext = hubContext;
+        }
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            _hubContext.Clients.All.InvokeAsync("onReceiveMessage", "Server", "#000", "Hello from controller");
+            Console.WriteLine("Sended Message");
+            return Ok(new string[] { "value1", "value2" });
         }
 
         // GET api/values/5

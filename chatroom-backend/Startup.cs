@@ -41,7 +41,7 @@ namespace chatroom_backend
             });
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            //app.UseMvc();
+            app.UseMvc();
         }
     }
 }

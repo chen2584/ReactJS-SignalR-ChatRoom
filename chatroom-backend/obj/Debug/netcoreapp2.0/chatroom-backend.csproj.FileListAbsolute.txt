@@ -18,3 +18,4 @@
 /Users/chen/MyWork/Dotnet/ReactJS-SignalR-ChatRoom/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.AssemblyInfo.cs
 /Users/chen/MyWork/Dotnet/ReactJS-SignalR-ChatRoom/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.dll
 /Users/chen/MyWork/Dotnet/ReactJS-SignalR-ChatRoom/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.pdb
+/Users/chen/MyWork/Dotnet/ReactJS-SignalR-ChatRoom/chatroom-backend/obj/Debug/netcoreapp2.0/chatroom-backend.csprojAssemblyReference.cache
